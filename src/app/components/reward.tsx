@@ -4,8 +4,8 @@ import { useReward } from "react-rewards";
 export default function Reward({ currentEmoji }: { currentEmoji: string }) {
   const emojiConfig = {
     elementSize: 30,
-    elementCount: 50,
-    spread: 80,
+    elementCount: 60,
+    spread: 70,
     emoji: [currentEmoji],
   };
 
