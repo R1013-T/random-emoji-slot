@@ -49,8 +49,8 @@ export default function Slot() {
         dummyCharacters={slotDummyValues}
         ref={counterRef}
         containerClassName="border rounded-md bg-gray-100/20"
-        charClassName="text-3xl px-2 pt-1 my-2"
-        valueClassName="px-2 pt-0 text-3xl mt-10"
+        charClassName="text-3xl px-2 my-2"
+        valueClassName="px-2 pt-0 text-3xl"
       />
       <button
         className="block mt-3 py-2 px-2.5 tracking-wider border rounded-md"
