@@ -48,8 +48,8 @@ export default function Slot() {
         value={slotValues}
         dummyCharacters={slotDummyValues}
         ref={counterRef}
-        containerClassName="border p-2 pt-3.5 rounded-md bg-gray-100/20"
-        charClassName="text-3xl px-2 "
+        containerClassName="border rounded-md bg-gray-100/20"
+        charClassName="text-3xl px-2 pt-1 my-2"
         valueClassName="px-2 pt-0 text-3xl mt-10"
       />
       <button
